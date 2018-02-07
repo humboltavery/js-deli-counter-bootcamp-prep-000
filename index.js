@@ -24,7 +24,7 @@ function currentLine (line) {
    if (line.length === 1 || i === line[line.length - 1]) {
      lineStr += `${i + 1}. ${line[i]}`;
    }
-   lineStr += `${i + 1}. ${line[i]},`
+   lineStr += `${i + 1}. ${line[i]}, `
   }
   return lineStr;
 }
